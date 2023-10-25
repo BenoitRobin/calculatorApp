@@ -3,21 +3,48 @@
 	const operations = ['/', 'x', '-', '+', '='];
 
 	let selectedOperation = '';
+	let display = '';
+	let firstNumber = '';
+	let secondNumber = '';
 
 	const handleOperationClick = (operation: string) => {
 		selectedOperation = operation;
-		console.log('selected operation = ' + operation);
 	};
+
+	const handleNumberClick = (number: string) => {
+		if (display === '' && number === '0') return;
+		if (number === ',' && display.includes(',')) return;
+
+		if (!selectedOperation) {
+			if (display === '' && number === ',') {
+				firstNumber = '0,';
+				return (display = firstNumber);
+			}
+			firstNumber = `${firstNumber}${number}`;
+			return (display = firstNumber);
+		} else {
+			if (display === '' && number === ',') {
+				secondNumber = '0,';
+				return (display = secondNumber);
+			}
+			secondNumber = `${secondNumber}${number}`;
+			return (display = secondNumber);
+		}
+	};
+
+
+    
 </script>
 
 <main>
 	<div class="calculator">
-		<div class="results" />
+		<div class="results">{display}</div>
 		<div class="digits">
 			<div class="numbers">
 				<button class="btn btn-xlg">C</button>
 				{#each numbers as number (number)}
 					<button
+						on:click={() => handleNumberClick(number)}
 						class={`btn 
                         ${number === '0' ? 'btn-lg' : null}`}
 					>
@@ -27,7 +54,10 @@
 			</div>
 			<div class="operations">
 				{#each operations as operation (operation)}
-					<button on:click={() => handleOperationClick(operation)} class={`btn ${operation === selectedOperation ? 'btn-silver' : 'btn-orange'}`}>
+					<button
+						on:click={() => handleOperationClick(operation)}
+						class={`btn ${operation === selectedOperation ? 'btn-silver' : 'btn-orange'}`}
+					>
 						{operation}
 					</button>
 				{/each}
