@@ -151,6 +151,7 @@
 		width: 170px;
 	}
 	.results {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
 		height: 60px;
 		color: white;
 		font-size: 50px;
