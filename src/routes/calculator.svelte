@@ -1,27 +1,27 @@
+<script lang="ts">
+	const numbers = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0', ','];
+	const operations = ['/', 'x', '-', '+', '='];
+</script>
+
 <main>
 	<div class="calculator">
 		<div class="results" />
 		<div class="digits">
 			<div class="numbers">
 				<button class="btn-silver btn btn-xlg">C</button>
-				<button class="btn-silver btn">1</button>
-				<button class="btn-silver btn">2</button>
-				<button class="btn-silver btn">3</button>
-				<button class="btn-silver btn">4</button>
-				<button class="btn-silver btn">5</button>
-				<button class="btn-silver btn">6</button>
-				<button class="btn-silver btn">7</button>
-				<button class="btn-silver btn">8</button>
-				<button class="btn-silver btn">9</button>
-				<button class="btn-silver btn btn-lg">0</button>
-				<button class="btn-silver btn">,</button>
+				{#each numbers as number (number)}
+					<button
+						class={`btn-silver btn 
+                        ${number === '0' ? 'btn-lg' : null}`}
+					>
+						{number}
+					</button>
+				{/each}
 			</div>
 			<div class="operations">
-				<button class="btn-orange btn">/</button>
-				<button class="btn-orange btn">x</button>
-				<button class="btn-orange btn">+</button>
-				<button class="btn-orange btn">-</button>
-				<button class="btn-orange btn">=</button>
+				{#each operations as operation (operation)}
+					<button class="btn-orange btn">{operation}</button>
+				{/each}
 			</div>
 		</div>
 	</div>
