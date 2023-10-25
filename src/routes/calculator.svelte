@@ -1,6 +1,13 @@
 <script lang="ts">
 	const numbers = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0', ','];
 	const operations = ['/', 'x', '-', '+', '='];
+
+	let selectedOperation = '';
+
+	const handleOperationClick = (operation: string) => {
+		selectedOperation = operation;
+		console.log('selected operation = ' + operation);
+	};
 </script>
 
 <main>
@@ -8,10 +15,10 @@
 		<div class="results" />
 		<div class="digits">
 			<div class="numbers">
-				<button class="btn-silver btn btn-xlg">C</button>
+				<button class="btn btn-xlg">C</button>
 				{#each numbers as number (number)}
 					<button
-						class={`btn-silver btn 
+						class={`btn 
                         ${number === '0' ? 'btn-lg' : null}`}
 					>
 						{number}
@@ -20,7 +27,9 @@
 			</div>
 			<div class="operations">
 				{#each operations as operation (operation)}
-					<button class="btn-orange btn">{operation}</button>
+					<button on:click={() => handleOperationClick(operation)} class={`btn ${operation === selectedOperation ? 'btn-silver' : 'btn-orange'}`}>
+						{operation}
+					</button>
 				{/each}
 			</div>
 		</div>
