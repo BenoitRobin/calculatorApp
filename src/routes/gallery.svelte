@@ -1,6 +1,7 @@
 <script lang="ts">
 	import axios from 'axios';
 	import { onMount } from 'svelte';
+	import { fly, fade } from 'svelte/transition';
 
 	let term = '';
 	let photos: {
@@ -13,12 +14,11 @@
 			profile_image: { medium: string };
 		};
 	}[] = [];
-	let searchWord = 'Benoit';
 
 	const fetchdata = async () => {
 		const response = await axios.get(
 			`https://api.unsplash.com/search/photos?page=1&query=${
-				term || 'mac'
+				term || 'bike'
 			}&client_id=EhbSp_LlOS5xru-qq1DbGfh01odyN7IsQtHFv7BW0o8`
 		);
 		photos = response.data.results;
@@ -28,27 +28,29 @@
 		fetchdata();
 	});
 
-	const validate = (event : string) => {
-		console.log(event);
+	const handleSearch = async () => {
+		if (!term) return;
+		await fetchdata();
+		term = '';
 	};
 </script>
 
 <div class="container">
 	<div class="header">
 		<h1>Image Gallery</h1>
-		<form class="input-container" on:submit|preventDefault={validate}>
-			<input type="text" class="input" name="searchWord" id="searchWord" bind:value={searchWord} />
-			<button type="submit" class="button">Search</button>
+		<form class="input-container">
+			<input type="text" class="input" name="searchWord" id="searchWord" bind:value={term} />
+			<button on:click={handleSearch} class="button">Search</button>
 		</form>
 	</div>
 	<div class="photos">
 		{#each photos as photo, i (photo.id)}
-			<div class="img-container">
+			<div class="img-container" in:fly={{ y: 500, duration: 3000, delay: i * 200 }} out:fade>
 				<img src={photo.urls.regular} alt={photo.alt_description} class="image" />
 				<p>{photo.likes}</p>
 				<div class="info">
-					<img src={photo.user.profile_image.medium} alt={photo.user.name} />
-					<p>{photo.user.name}</p>
+					<img src={photo.user.profile_image.medium} alt={photo.user.name} class="profil" />
+					<p class="name">{photo.user.name}</p>
 				</div>
 			</div>
 		{/each}
@@ -57,16 +59,32 @@
 
 <style>
 	.image {
-		height: 25vh;
-		margin: 2px;
+        border-radius: 16px;
 	}
 	.photos {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-evenly;
+        max-width: 100%;
+        margin: 0 auto;
+        column-count: 3;
+        column-gap: 15px;
 	}
+
+    .img-container {
+        display: block;
+		background: red;
+        width: 100%;
+        height: auto;
+        margin-bottom: 15px;
+        transition: .2s ease-in-out;
+        border-radius: 16px;
+	}
+
+    .img-container:hover {
+      transform: scale(.95);
+      filter: grayscale(100%);
+	}
+
 	.container {
-		width: 1230px;
+		width: 90%;
 		margin: 0 auto;
 	}
 	.header {
@@ -96,4 +114,10 @@
 	.info {
 		display: flex;
 	}
+	
+    @media (max-width: 757px) {
+        .photos {
+            column-count: 2;
+        }
+    }
 </style>
