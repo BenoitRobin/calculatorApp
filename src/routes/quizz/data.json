@@ -1,0 +1,638 @@
+[
+    {
+        "id": 1,
+        "name": "Télévision",
+        "imageUrl": "television",
+        "questions": [
+            {
+                "id": 1,
+                "question": "Quelle gagnante de 'Secret Story' avait pour secret d'être en couple avec Geoffrey ?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "a",
+                        "text": "Sabrina"
+                    },
+                    {
+                        "id": 2,
+                        "label": "b",
+                        "text": "Juliette"
+                    },
+                    {
+                        "id": 3,
+                        "label": "c",
+                        "text": "Aurélie"
+                    },
+                    {
+                        "id": 4,
+                        "label": "d",
+                        "text": "Marie"
+                    }
+                ],
+                "answer": "d"
+            },
+            {
+                "id": 2,
+                "question": "Dans quel restaurant travaillait Sanji avant de rejoindre Luffy ?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "a",
+                        "text": "Baratie"
+                    },
+                    {
+                        "id": 2,
+                        "label": "b",
+                        "text": "Moby Dick"
+                    },
+                    {
+                        "id": 3,
+                        "label": "c",
+                        "text": "Oro Jackson"
+                    },
+                    {
+                        "id": 4,
+                        "label": "d",
+                        "text": "Vogue Merry"
+                    }
+                ],
+                "answer": "a"
+            },
+            {
+                "id": 2,
+                "question": "Dans quel restaurant travaillait Sanji avant de rejoindre Luffy ?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "a",
+                        "text": "Baratie"
+                    },
+                    {
+                        "id": 2,
+                        "label": "b",
+                        "text": "Moby Dick"
+                    },
+                    {
+                        "id": 3,
+                        "label": "c",
+                        "text": "Oro Jackson"
+                    },
+                    {
+                        "id": 4,
+                        "label": "d",
+                        "text": "Vogue Merry"
+                    }
+                ],
+                "answer": "a"
+            },
+            {
+                "id": 2,
+                "question": "Dans quel restaurant travaillait Sanji avant de rejoindre Luffy ?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "a",
+                        "text": "Baratie"
+                    },
+                    {
+                        "id": 2,
+                        "label": "b",
+                        "text": "Moby Dick"
+                    },
+                    {
+                        "id": 3,
+                        "label": "c",
+                        "text": "Oro Jackson"
+                    },
+                    {
+                        "id": 4,
+                        "label": "d",
+                        "text": "Vogue Merry"
+                    }
+                ],
+                "answer": "a"
+            },
+            {
+                "id": 2,
+                "question": "Dans quel restaurant travaillait Sanji avant de rejoindre Luffy ?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "a",
+                        "text": "Baratie"
+                    },
+                    {
+                        "id": 2,
+                        "label": "b",
+                        "text": "Moby Dick"
+                    },
+                    {
+                        "id": 3,
+                        "label": "c",
+                        "text": "Oro Jackson"
+                    },
+                    {
+                        "id": 4,
+                        "label": "d",
+                        "text": "Vogue Merry"
+                    }
+                ],
+                "answer": "a"
+            },
+            {
+                "id": 3,
+                "question": "Quel est le membre le plus âgé de l'équipage de Don Quichotte Dolfamingo ?",,
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "a",
+                        "text": "Trébol"
+                    },
+                    {
+                        "id": 2,
+                        "label": "b",
+                        "text": "Lao G"
+                    },
+                    {
+                        "id": 3,
+                        "label": "c",
+                        "text": "Jora"
+                    },
+                    {
+                        "id": 4,
+                        "label": "d",
+                        "text": "Señor Pink"
+                    }
+                ],
+                "answer": "b"
+            },
+            {
+                "id": 4,
+                "question": "Dans quel restaurant travaillait Sanji avant de rejoindre Luffy ?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "a",
+                        "text": "Baratie"
+                    },
+                    {
+                        "id": 2,
+                        "label": "b",
+                        "text": "Moby Dick"
+                    },
+                    {
+                        "id": 3,
+                        "label": "c",
+                        "text": "Oro Jackson"
+                    },
+                    {
+                        "id": 4,
+                        "label": "d",
+                        "text": "Vogue Merry"
+                    }
+                ],
+                "answer": "a"
+            },
+            {
+                "id": 5,
+                "question": "Quelle est la particularité vestimentaire de Yogi l'ours ?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "a",
+                        "text": "Cape et collants"
+                    },
+                    {
+                        "id": 2,
+                        "label": "b",
+                        "text": "Casquette et short"
+                    },
+                    {
+                        "id": 3,
+                        "label": "c",
+                        "text": "Tee-shirt et tongs"
+                    },
+                    {
+                        "id": 4,
+                        "label": "d",
+                        "text": "Cravate et chapeau"
+                    }
+                ],
+                "answer": "d"
+            },
+            {
+                "id": 6,
+                "question": "À quel animateur et ex-biologiste doit-on la série télévisée 'Bob l'éponge' ?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "a",
+                        "text": "Scott MacDonald"
+                    },
+                    {
+                        "id": 2,
+                        "label": "b",
+                        "text": "Stephen Hillenburg"
+                    },
+                    {
+                        "id": 3,
+                        "label": "c",
+                        "text": "Ash Brannon"
+                    },
+                    {
+                        "id": 4,
+                        "label": "d",
+                        "text": "Chris Sanders"
+                    }
+                ],
+                "answer": "b"
+            },
+            {
+                "id": 7,
+                "question": "Qui incarne Fatiah aux côtés de Virginie Ledoyen dans 'La Fille seule' ?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "a",
+                        "text": "Virginie Prin"
+                    },
+                    {
+                        "id": 2,
+                        "label": "b",
+                        "text": "Virginie Vral"
+                    },
+                    {
+                        "id": 3,
+                        "label": "c",
+                        "text": "Virginie Emane"
+                    },
+                    {
+                        "id": 4,
+                        "label": "d",
+                        "text": "Virginie Haro"
+                    }
+                ],
+                "answer": "c"
+            },
+            {
+                "id": 8,
+                "question": "Quel animateur télé, aujourd'hui chroniqueur, a remporté la saison 4 de 'Secret Story' ",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "a",
+                        "text": "Benoît Dubois"
+                    },
+                    {
+                        "id": 2,
+                        "label": "b",
+                        "text":"Vincent Desagnat"
+                    },
+                    {
+                        "id": 3,
+                        "label": "c",
+                        "text": "Bruno Duvic"
+                    },
+                    {
+                        "id": 4,
+                        "label": "d",
+                        "text": "Patrice Drevet"
+                    }
+                ],
+                "answer": "a"
+            },
+            {
+                "id": 9,
+                "question": "Quel animateur télé reste connu pour ses démonstrations presque toujours défaillantes ?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "a",
+                        "text": "Antoine de Caunes"
+                    },
+                    {
+                        "id": 2,
+                        "label": "b",
+                        "text": "Stéphane Guillon"
+                    },
+                    {
+                        "id": 3,
+                        "label": "c",
+                        "text": "Laurent Baffie"
+                    },
+                    {
+                        "id": 4,
+                        "label": "d",
+                        "text": "Patrice Carmouze"
+                    }
+                ],
+                "answer": "d"
+            },
+            {
+                "id": 10,
+                "question": "Quelle marque se présentait comme le savon de beauté des stars ?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "a",
+                        "text": "Dove"
+                    },
+                    {
+                        "id": 2,
+                        "label": "b",
+                        "text": "Lux"
+                    },
+                    {
+                        "id": 3,
+                        "label": "c",
+                        "text": "Cadum"
+                    },
+                    {
+                        "id": 4,
+                        "label": "d",
+                        "text": "Monsavon"
+                    }
+                ],
+                "answer": "b"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Informatique",
+        "imageUrl": "informatique",
+        "questions": [
+            {
+                "id": 1,
+                "text": "Quel générateur d'images fut développé par la société OpenAI ?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "a",
+                        "text": "Alex"
+                    },
+                    {
+                        "id": 2,
+                        "label": "b",
+                        "text": "OpenSIm"
+                    },
+                    {
+                        "id": 3,
+                        "label": "c",
+                        "text": "ChatGPT"
+                    },
+                    {
+                        "id": 4,
+                        "label": "d",
+                        "text": "DALL-E"
+                    }
+                ],
+                "answer": "d"
+            },
+            {
+                "id": 2,
+                "text": "Quelle crypto-monnaie exploite l'espace disque non utilisé d'un ordinateur ?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "a",
+                        "text": "Vertcoin"
+                    },
+                    {
+                        "id": 2,
+                        "label": "b",
+                        "text": "Burstcoin"
+                    },
+                    {
+                        "id": 3,
+                        "label": "c",
+                        "text": "NameCoin"
+                    },
+                    {
+                        "id": 4,
+                        "label": "d",
+                        "text": "MangoCoinz"
+                    }
+                ],
+                "answer": "b"
+            },
+            {
+                "id": 3,
+                "text": "Quel cofondateur a décrit l'IA comme la pire menace existentielle ?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "a",
+                        "text": "Sam Altman"
+                    },
+                    {
+                        "id": 2,
+                        "label": "b",
+                        "text": "Ilya Sutskever"
+                    },
+                    {
+                        "id": 3,
+                        "label": "c",
+                        "text": "Greg Brockman"
+                    },
+                    {
+                        "id": 4,
+                        "label": "d",
+                        "text": "Elon Musk"
+                    }
+                ],
+                "answer": "d"
+            },
+            {
+                "id": 4,
+                "text": "Quel pare-feu d'OpenBSD est désormais utilisé sur Mac OS X ?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "a",
+                        "text": "Firestarter"
+                    },
+                    {
+                        "id": 2,
+                        "label": "b",
+                        "text": "Packet Filter"
+                    },
+                    {
+                        "id": 3,
+                        "label": "c",
+                        "text": "Comodo"
+                    },
+                    {
+                        "id": 4,
+                        "label": "d",
+                        "text": "ClearOS"
+                    }
+                ],
+                "answer": "b"
+            },
+            {
+                "id": 5,
+                "text": "Pour qui le système OpenBSD est-il surtout très intéressant ?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "a",
+                        "text": "Internautes"
+                    },
+                    {
+                        "id": 2,
+                        "label": "b",
+                        "text": "Commerciaux"
+                    },
+                    {
+                        "id": 3,
+                        "label": "c",
+                        "text": "Développeurs"
+                    },
+                    {
+                        "id": 4,
+                        "label": "d",
+                        "text": "Utilisateurs"
+                    }
+                ],
+                "answer": "c"
+            },
+            {
+                "id": 6,
+                "text": "Qui est devenu milliardaire à l'âge de 24 ans grâce à Snapchat ?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "a",
+                        "text": "Evan Spiegel"
+                    },
+                    {
+                        "id": 2,
+                        "label": "b",
+                        "text": "Jeff Bezos"
+                    },
+                    {
+                        "id": 3,
+                        "label": "c",
+                        "text": "Paul Allen"
+                    },
+                    {
+                        "id": 4,
+                        "label": "d",
+                        "text": "Tom Golisano"
+                    }
+                ],
+                "answer": "a"
+            },
+            {
+                "id": 7,
+                "text": "De combien de mégaoctets avez-vous besoin pour obtenir un gigaoctet ?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "a",
+                        "text": "10 000"
+                    },
+                    {
+                        "id": 2,
+                        "label": "b",
+                        "text": "100"
+                    },
+                    {
+                        "id": 3,
+                        "label": "c",
+                        "text": "49"
+                    },
+                    {
+                        "id": 4,
+                        "label": "d",
+                        "text": "1 024"
+                    }
+                ],
+                "answer": "d"
+            },
+            {
+                "id": 8,
+                "text": "Après combien d'années le successeur de Windows XP a-t-il été commercialisé ?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "a",
+                        "text": "4 ans"
+                    },
+                    {
+                        "id": 2,
+                        "label": "b",
+                        "text": "5 ans"
+                    },
+                    {
+                        "id": 3,
+                        "label": "c",
+                        "text": "6 ans"
+                    },
+                    {
+                        "id": 4,
+                        "label": "d",
+                        "text": "7 ans"
+                    }
+                ],
+                "answer": "b"
+            },
+            {
+                "id": 9,
+                "text": "Si ROM désigne la mémoire morte, quel terme désigne la mémoire vive ?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "a",
+                        "text": "RIM"
+                    },
+                    {
+                        "id": 2,
+                        "label": "b",
+                        "text": "REM"
+                    },
+                    {
+                        "id": 3,
+                        "label": "c",
+                        "text": "RUM"
+                    },
+                    {
+                        "id": 4,
+                        "label": "d",
+                        "text": "RAM"
+                    }
+                ],
+                "answer": "d"
+            },
+            {
+                "id": 10,
+                "text": "Quel est probablement le plus connu des systèmes informatiques dits libres ?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "a",
+                        "text": "Kubuntu"
+                    },
+                    {
+                        "id": 2,
+                        "label": "b",
+                        "text": "Ubuntu"
+                    },
+                    {
+                        "id": 3,
+                        "label": "c",
+                        "text": "Linux"
+                    },
+                    {
+                        "id": 4,
+                        "label": "d",
+                        "text": "Links"
+                    }
+                ],
+                "answer": "c"
+            }
+        ]
+
+    }
+]
